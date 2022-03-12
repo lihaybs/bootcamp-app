@@ -27,4 +27,11 @@ This sample application demonstrates the following technologies.
 1. Initialize the PostgreSQL database by running `npm run initdb`
 1. Run `npm run dev` to start Node.js
 
+**If you want make it with Server:**
+1. Make sure the you have ip adress one for the application and one for the Database.
+2. Copy the ip's to your .evn file.
+3. Run all the comands from Terminal (use "chmod" comand to Mac).
+4. Use comands to keep your server alive (You can use pm2 to do it https://pm2.keymetrics.io/)
+5. Close the Terminal and chack your web application.
+
 The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
